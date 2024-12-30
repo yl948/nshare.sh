@@ -44,18 +44,17 @@
 
 ## 安装和使用
 
-1. 下载脚本：
+1. 方法一：直接运行（推荐）：
 ```bash
-wget https://raw.githubusercontent.com/yourusername/yourrepo/main/nshare.sh
+curl -sSL https://raw.githubusercontent.com/yl948/nshare.sh/refs/heads/main/nshare.sh | sudo bash
+# 或者
+wget -qO- https://raw.githubusercontent.com/yl948/nshare.sh/refs/heads/main/nshare.sh | sudo bash
 ```
 
-2. 添加执行权限：
+2. 方法二：下载后运行：
 ```bash
+wget https://raw.githubusercontent.com/yl948/nshare.sh/refs/heads/main/nshare.sh
 chmod +x nshare.sh
-```
-
-3. 以 root 权限运行：
-```bash
 sudo ./nshare.sh
 ```
 
@@ -89,3 +88,15 @@ sudo ./nshare.sh
 2. 建议在操作前备份重要数据
 3. 永久挂载会修改 /etc/fstab 文件
 4. 删除操作不可恢复，请谨慎操作
+
+## 许可证
+
+[选择合适的许可证]
+
+## 贡献
+
+欢迎提交问题和改进建议！
+
+## 作者
+
+[你的名字或联系方式] 
